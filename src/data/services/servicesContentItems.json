@@ -1,0 +1,39 @@
+[
+    {
+        "id": "1",
+        "title": "Flower🌺",
+        "link": "/flower",
+        "imgSrc": "assets/img/bg/flowercat.png"
+    },
+    {
+        "id": "2",
+        "title": "👨‍🍳‘s RECOMMENDATIONS⏬",
+        "link": "/chef's-recommendations",
+        "imgSrc": "assets/img/bg/chefcatpng.png"
+    },
+    {
+        "id": "3",
+        "title": "EDIBLES💎 Chocolates🍫 Gummies🔮 Candies🍬 ",
+        "link": "/edibles-chocolates-candies-and-gummies",
+        "imgSrc": "assets/img/bg/ediblescat.png"
+    },
+    {
+        "id": "4",
+        "title": "💨 THC Vapes💨 🆕🧃⬇️",
+        "link": "/thcvapes",
+        "imgSrc": "assets/img/bg/vapecat.png"
+    },
+
+    {
+        "id": "5",
+        "title": "🍇🍉Concentrates🍓🍍",
+        "link": "/concentrates",
+        "imgSrc": "assets/img/bg/concentratescat.png"
+    },
+    {
+        "id": "6",
+        "title": "📜 Pre-Rolled 🔝Shelf 🌺 ",
+        "link": "/prerolled",
+        "imgSrc": "assets/img/bg/prerolledcat.png"
+    }
+]
