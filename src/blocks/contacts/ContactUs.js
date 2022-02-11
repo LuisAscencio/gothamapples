@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactsUs = () => {
     return (
-        <section id="contact-us" className="block with-img" style={ { backgroundImage: 'url(assets/img/bg/mainbanner3.png)' } }>
+        <section id="contact-us" className="block" style={ { backgroundImage: 'url(assets/img/bg/bannercrazy.png)' } }>
             <div className=" text-tertiary spacer p-top-xl p-bottom-xl">
                 <div className="wrapper text-center">
                     <div className="title">
