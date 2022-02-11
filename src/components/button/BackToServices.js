@@ -4,7 +4,7 @@ const BackToServices = () => {
     return (
         <div id="back-to-services" className="block spacer p-top-xl">
             <div className="text-center">
-                <a href={ process.env.PUBLIC_URL + "/services" } className="btn btn-outline-secondary text-uppercase">Back to Services</a>
+                <a href={ process.env.PUBLIC_URL + "/services" } className="btn btn-outline-secondary text-uppercase">Back to Menu</a>
             </div>
         </div>
     );

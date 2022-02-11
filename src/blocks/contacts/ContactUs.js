@@ -2,17 +2,26 @@ import React from 'react';
 
 const ContactsUs = () => {
     return (
-        <section id="contact-us" className="block">
-            <div className="bg-blue text-tertiary spacer p-top-xl p-bottom-xl">
+        <section id="contact-us" className="block with-img" style={ { backgroundImage: 'url(assets/img/bg/bannerbottom.jpg)' } }>
+            <div className=" text-tertiary spacer p-top-xl p-bottom-xl">
                 <div className="wrapper text-center">
                     <div className="title">
-                        <h2 className="text-uppercase">You can contact us</h2>
+                        <h2 className="text-uppercase">Info</h2>
                     </div>
 
-                    <a href={ process.env.PUBLIC_URL + "/contacts" } className="btn btn-outline-tertiary text-uppercase">Contact</a>
+                    <a href={ process.env.PUBLIC_URL + "/info" } className="btn btn-outline-tertiary text-uppercase">Visit Info</a>
                 </div>
             </div>
         </section>
+
+
+
+
+
+
+
+
+
     );
 };
 

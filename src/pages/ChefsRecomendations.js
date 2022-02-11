@@ -102,7 +102,7 @@ const ChefsRecommendation = () => {
                                         <div className="img-no-wrap-1">
                                             <div className="img object-fit">
                                                 <div className="object-fit-cover">
-                                                    <img src="assets/img/placeholder/1600x700.jpg" alt="Flower" />
+                                                    <img src="assets/img/bg/bannerchef.jpg" alt="Flower" />
                                                 </div>
                                             </div>
                                         </div>

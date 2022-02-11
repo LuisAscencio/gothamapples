@@ -13,7 +13,9 @@ const Header = ( { logoColor } ) => {
                         <div className="links">
                             <div className="links-items">
                                 <div className="links-item">
-                                    <a href={ process.env.PUBLIC_URL + "/" } className="btn btn-lg btn-before-dot btn-link border-0 p-0 min-w-auto">HOME</a>
+                                    <a href={ "https://www.instagram.com/gotham_apples"} className="btn btn-link border-0 p-0 min-w-auto">
+                                    <i class="fab fa-instagram fa-3x" style={{color:"#333"}}></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>

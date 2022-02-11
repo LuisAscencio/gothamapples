@@ -3,12 +3,19 @@ import { Link } from 'react-scroll';
 
 
 const PageTitleHome = () => {
+    console.log(window.innerWidth)
     return (
         <section id="page-title" className="block with-img" style={ { backgroundImage: 'url(assets/img/bg/mainbanner3.png)' } }>
             <div className="wrapper text-center d-flex">
                 <div className="align-self-center w-100">
                     <div className="title">
                         <h1 className="large text-uppercase">Gotham Apples</h1>
+                        {window.innerWidth<911 ? 
+                        <a href={ "https://www.instagram.com/gotham_apples"} className="btn btn-link border-0 p-0 min-w-auto">
+                        <i class="fab fa-instagram fa-5x" ></i>
+                        </a>
+            
+                        : '' }
                     </div>
 
                     {/* <div className="description spacer p-top-lg">

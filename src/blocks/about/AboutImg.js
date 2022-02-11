@@ -6,7 +6,7 @@ const AboutImg = () => {
             <div className="about-img">
                 <div className="img object-fit">
                     <div className="object-fit-cover">
-                        <img src="assets/img/placeholder/1600x700.jpg" alt="About us" />
+                        <img src="assets/img/bg/bannerinfo.jpg" alt="About us" />
                     </div>
                 </div>
             </div>
