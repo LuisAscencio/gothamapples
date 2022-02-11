@@ -4,7 +4,7 @@ import MetaTags from 'react-meta-tags';
 import Loading from '../blocks/loading/Loading';
 import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
-
+import BackToServices from '../components/button/BackToServices';
 import PageTitleAbout from '../blocks/page-title/PageTitleAbout';
 import AboutReviews from '../blocks/about/AboutReviews';
 import AboutImg from '../blocks/about/AboutImg';
@@ -51,6 +51,7 @@ const About = () => {
                                 {/* <AboutReviews /> */}
 
                                 {/* <AboutClients /> */}
+                                <BackToServices />
                             </div>
                         </div>
                     </div>

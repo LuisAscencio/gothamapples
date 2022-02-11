@@ -26,40 +26,40 @@ function App() {
                     path={ `${ process.env.PUBLIC_URL + "/" }` }
                     component={ Home }
                 />
-                <Route
+                {/* <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/about-us" }` }
                     component={ About }
-                />
-                <Route
+                /> */}
+                {/* <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/contacts" }` }
                     component={ Contacts }
-                />
-                <Route
+                /> */}
+                {/* <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/news" }` }
                     component={ News }
-                />
-                <Route
+                /> */}
+                {/* <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/gallery" }` }
                     component={ Gallery }
-                />
-                <Route
+                /> */}
+                {/* <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/news-single-post" }` }
                     component={ NewsSinglePost }
-                />
-                <Route
+                /> */}
+                {/* <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/search-results" }` }
                     component={ SearchResults }
-                />
+                /> */}
                 <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/services" }` }
-                    component={ Services }
+                    component={ Home }
                 />
                 <Route
                     exact

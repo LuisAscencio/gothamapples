@@ -33,13 +33,13 @@ const PageTitleHome = () => {
                         </Link>
                     </div> */}
 
-                    <nav className="languages lang-position">
+                    {/* <nav className="languages lang-position">
                         <ul className="nav">
                             <li className="lang-item current-lang">
                                 <a title="en" href={ process.env.PUBLIC_URL + "/" }>en</a>
                             </li>
                         </ul>
-                    </nav>
+                    </nav> */}
                 </div>
             </div>
 

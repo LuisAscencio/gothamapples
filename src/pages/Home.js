@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
-
+import { useEffect } from "react";
 import Loading from '../blocks/loading/Loading';
 import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
@@ -14,7 +14,27 @@ import News from '../blocks/news/News';
 import Newsletter from '../blocks/newsletter/Newsletter';
 
 
+
+
+
+  
+
 const Home = () => {
+
+
+useEffect(() => {
+
+    if (window.location.pathname==="/services") {
+        window.scrollTo({ behavior: "smooth",
+        top: 800
+      })
+    } 
+    
+    
+  }, []);
+
+
+
     document.body.classList.add( 'home' );
     document.body.classList.add( 'header-absolute-true' );
 
