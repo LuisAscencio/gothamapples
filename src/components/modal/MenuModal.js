@@ -44,11 +44,11 @@ class MenuModal extends Component {
                 <div className="menu-toggle">
 
 
-                    <button onClick={ this.open.bind( this ) } type="button" className="btn btn-lg  border-0 p-0 min-w-auto text-uppercase" data-toggle="modal" data-target="#menu-modal">
+                    <button onClick={ this.open.bind( this ) }  type="button" className="btn btn-lg  border-0 p-0 min-w-auto text-uppercase" data-toggle="modal" data-target="#menu-modal">
                     <div class="container" >
-                            <div class="bar1"></div>
-                            <div class="bar2"></div>
-                            <div class="bar3"></div>
+                            <div class="bar1" style={{backgroundColor:window.location.pathname==="/" ? 'white' : '#333' }}></div>
+                            <div class="bar2" style={{backgroundColor:window.location.pathname==="/" ? 'white' : '#333' }}></div>
+                            <div class="bar3" style={{backgroundColor:window.location.pathname==="/" ? 'white' : '#333' }}></div>
                     </div>
 
 
