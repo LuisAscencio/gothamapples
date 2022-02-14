@@ -9,8 +9,11 @@ import PageTitleHome from '../blocks/page-title/PageTitleHome';
 import ContactsUs from "../blocks/contacts/ContactUs";
 import ServicesHome from '../blocks/services/ServicesHome';
 import ServicesContent from '../blocks/services/ServicesContent';
+import ContactForm from '../components/form/ContactForm';
 import AboutsUs from '../blocks/about/AboutUs';
 import News from '../blocks/news/News';
+import GoogleMaps from '../blocks/google-maps/GoogleMaps';
+import ContactsInside from '../blocks/contacts/Contacts';
 import Newsletter from '../blocks/newsletter/Newsletter';
 
 
@@ -64,19 +67,59 @@ useEffect(() => {
                         <PageTitleHome />
 
 
-                        <main id="main" className="site-main">
+                        {/* <main id="main" className="site-main">
                                 <PageTitleServices />
 
                             <div id="page-content" className="spacer p-top-xl">
                                 <ServicesContent />
                             </div>
-                        </main>
+                        </main> */}
 
-                            
+
+
+                        <div id="page-content" className="spacer p-top-xl">
+                    <div className="wrapper">
+                        <div className="content">
+                            <div className="clearfix">
+                          
+
+                              <div className="spacer p-top-xl">
+                                    <div className="title">
+                                        <h2 className="text-uppercase">Let’s get Connected</h2>
+                                    </div>
+
+                                    <div className="row gutter-width-sm with-pb-xl spacer p-top-lg">
+                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                            {/* <ContactsInside /> */}
+                                            <div className="header-logo" style={{maxHeight: "350px"}}>
+                                                <a className="logo logo-secondary transform-scale-h" title="Logo" href={ process.env.PUBLIC_URL + "/" }>
+                                                    <img src={ "assets/img/logo/galogo.png" } alt="Logo" style={{maxHeight: "200px"}}/>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                                            <div className="contact-form-shortcode">
+                                                <ContactForm />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                         {/* <ServicesContent /> */}
 
                         {/* <AboutsUs /> */}
-                        <ContactsUs />
+                        {/* <ContactsUs /> */}
                         {/* <div id="img" className="block spacer p-top-xl">
                             <div className="img-no-wrap-1">
                                 <div className="img object-fit">
