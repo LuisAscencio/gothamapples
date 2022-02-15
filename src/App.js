@@ -61,12 +61,17 @@ function App() {
                     path={ `${ process.env.PUBLIC_URL + "/services" }` }
                     component={ Home }
                 />
-                <Route
+                  <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/form" }` }
+                    component={ Home }
+                />
+                {/* <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/ui" }` }
                     component={ UserInterface }
-                />
-                <Route
+                /> */}
+                {/* <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/flower" }` }
                     component={ Flower }
@@ -103,7 +108,7 @@ function App() {
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/info" }` }
                     component={ About }
-                />
+                /> */}
 
                 <Route exact component={ page404 } />
             </Switch>

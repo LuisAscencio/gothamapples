@@ -2,14 +2,12 @@ import React from 'react';
 
 const ContactsUs = () => {
     return (
-        <section id="contact-us" className="block" style={ { backgroundImage: 'url(assets/img/bg/bannercrazy.png)' } }>
+        <section id="contact-us" className="block" style={ { backgroundImage: 'url(assets/img/bg/empire.png)' } }>
             <div className=" text-tertiary spacer p-top-xl p-bottom-xl">
                 <div className="wrapper text-center">
-                    <div className="title">
-                        <h2 className="text-uppercase">Info</h2>
-                    </div>
+                   
 
-                    <a href={ process.env.PUBLIC_URL + "/info" } className="btn btn-outline-tertiary text-uppercase">Visit Info</a>
+                    <a href={ "https://www.instagram.com/gotham_apples/" } className="btn btn-outline-tertiary text-uppercase">Visit Us on Instagram</a>
                 </div>
             </div>
         </section>

@@ -36,25 +36,25 @@ class ServicesHome extends Component {
                 <div className="adv-slider-services">
                     <div className="adv-swiper-container">
                         <div className="adv-swiper-wrapper services-items clearfix">
-                            <a title="Flower" className="adv-swiper-slide services-item" href={ process.env.PUBLIC_URL + "/flower" }>
+                            <a title="Flower" className="adv-swiper-slide services-item" href={ "/form" }>
                                 <div className="services-item-content">
-                                    <h3 className="services-item-t-head">Flower🌺</h3>
+                                    <h3 className="services-item-t-head">Brooklyn</h3>
 
                                     <span className="btn btn-lg btn-before-dot btn-link border-0 p-0 min-w-auto link-no-space">Visit</span>
                                 </div>
 
                                 <div className="img object-fit">
                                     <div className="object-fit-cover">
-                                        <img src="assets/img/bg/flowercat.png" alt="Haircut" />
+                                        <img src="assets/img/bg/city.png" alt="Haircut" />
                                     </div>
                                 </div>
 
                                 <div className="img-bg-color"></div>
                             </a>
 
-                            <a title="chef's-recommendations" className="adv-swiper-slide services-item" href={ process.env.PUBLIC_URL + "/chef's-recommendations" }>
+                            <a title="chef's-recommendations" className="adv-swiper-slide services-item" href={ "/form" }>
                                 <div className="services-item-content">
-                                    <h3 className="services-item-t-head">👨‍🍳‘s  RECOMMENDATIONS: ✔️⏬
+                                    <h3 className="services-item-t-head">Queens
 </h3>
 
                                     <span className="btn btn-lg btn-before-dot btn-link border-0 p-0 min-w-auto link-no-space">Visit</span>
@@ -62,29 +62,29 @@ class ServicesHome extends Component {
 
                                 <div className="img object-fit">
                                     <div className="object-fit-cover">
-                                        <img src="assets/img/bg/chefcatpng.png" alt="👨‍🍳‘s  RECOMMENDATIONS: ✔️⏬" />
+                                        <img src="assets/img/bg/subway.png" alt="subway" />
                                     </div>
                                 </div>
 
                                 <div className="img-bg-color"></div>
                             </a>
 
-                            <a title="EDIBLES💎Chocolates🍫Gummies🔮Candies" className="adv-swiper-slide services-item" href={ process.env.PUBLIC_URL + "/edibles-chocolates-candies-and-gummies" }>
+                            <a title="EDIBLES💎Chocolates🍫Gummies🔮Candies" className="adv-swiper-slide services-item" href={ "/form" }>
                                 <div className="services-item-content">
-                                    <h3 className="services-item-t-head">EDIBLES 💎Chocolates 🍫 Gummies 🔮 Candies 🍬 </h3>
+                                    <h3 className="services-item-t-head">Staten Island </h3>
 
                                     <span className="btn btn-lg btn-before-dot btn-link border-0 p-0 min-w-auto link-no-space">Visit</span>
                                 </div>
 
                                 <div className="img object-fit">
                                     <div className="object-fit-cover">
-                                        <img src="assets/img/bg/ediblescat.png" alt="EDIBLES 💎Chocolates 🍫 Gummies 🔮 Candies 🍬 " />
+                                        <img src="assets/img/bg/staten.png" alt="EDIBLES 💎Chocolates 🍫 Gummies 🔮 Candies 🍬 " />
                                     </div>
                                 </div>
 
                                 <div className="img-bg-color"></div>
                             </a>
-
+{/* 
                             <a title="THC Vapes" className="adv-swiper-slide services-item" href={ process.env.PUBLIC_URL + "/thcvapes" }>
                                 <div className="services-item-content">
                                     <h3 className="services-item-t-head">💨 THC Vape🎨Cartridges🕴↘️⤵️ 🧃 🆕 🧃 🧃🆕🧃 ⬇️↙️(Live Resin↩️510↪️Distillate)THREAD
@@ -100,7 +100,7 @@ class ServicesHome extends Component {
                                 </div>
 
                                 <div className="img-bg-color"></div>
-                            </a>
+                            </a> */}
                         </div>
 
                         <div className="adv-2-swiper-button-prev">

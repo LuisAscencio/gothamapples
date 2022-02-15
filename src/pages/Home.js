@@ -15,6 +15,7 @@ import News from '../blocks/news/News';
 import GoogleMaps from '../blocks/google-maps/GoogleMaps';
 import ContactsInside from '../blocks/contacts/Contacts';
 import Newsletter from '../blocks/newsletter/Newsletter';
+import BackToServices from '../components/button/BackToServices';
 
 
 
@@ -27,11 +28,21 @@ const Home = () => {
 
 useEffect(() => {
 
-    if (window.location.pathname==="/services") {
+    if (window.location.pathname==="/form") {
         window.scrollTo({ behavior: "smooth",
-        top: 800
+        top: 2000
       })
-    } 
+    }
+    
+
+
+
+
+    // if (window.location.pathname==="/services") {
+    //     window.scrollTo({ behavior: "smooth",
+    //     top: 800
+    //   })
+    // }
     
     
   }, []);
@@ -66,15 +77,28 @@ useEffect(() => {
                     <div className="clearfix">
                         <PageTitleHome />
 
-
-                        {/* <main id="main" className="site-main">
-                                <PageTitleServices />
+                        <div id="page-content" className="spacer p-top-xl">
+                        <ContactsUs />
+                                
+                           
+                            </div>
+                        
+                                {/* <PageTitleServices /> */}
 
                             <div id="page-content" className="spacer p-top-xl">
+                                <ServicesHome/>
+                                
+                           
+                            </div>
+                            <div id="page-content" className="spacer p-top-xl">
+                               
+                                
                                 <ServicesContent />
                             </div>
-                        </main> */}
 
+                          
+                           
+                    
 
 
                         <div id="page-content" className="spacer p-top-xl">
@@ -92,10 +116,12 @@ useEffect(() => {
                                         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                             {/* <ContactsInside /> */}
                                             <div className="header-logo" style={{maxHeight: "350px"}}>
-                                                <a className="logo logo-secondary transform-scale-h" title="Logo" href={ process.env.PUBLIC_URL + "/" }>
-                                                    <img src={ "assets/img/logo/galogo.png" } alt="Logo" style={{maxHeight: "200px"}}/>
+                                                <a className="logo logo-secondary transform-scale-h" title="Logo" href={ "https://www.instagram.com/gotham_apples/" }>
+                                                    <img src={ "assets/img/bg/contactbannerbutton.png" } alt="Logo" style={{maxHeight: "600px",}}/>
                                                 </a>
+                                               
                                             </div>
+                                            
                                         </div>
 
                                         <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12">
