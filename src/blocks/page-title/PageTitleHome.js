@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 const PageTitleHome = () => {
     console.log(window.innerWidth)
     return (
-        <section id="page-title" className="block with-img" style={ { backgroundImage: 'url(assets/img/bg/mainbannercity.png)' } }>
+        <section id="page-title" className="block with-img" style={ { backgroundImage: 'url(assets/img/bg/bannermainfinalpng.png)' } }>
             <div className="wrapper text-center d-flex">
                 <div className="align-self-center w-100">
                     <div className="title">

@@ -81,7 +81,7 @@ useEffect(() => {
                         
                         
                                 
-                        <ServicesHome func={goToContact}/>
+                        {/* <ServicesHome func={goToContact}/> */}
                           
                         
                                 {/* <PageTitleServices /> */}

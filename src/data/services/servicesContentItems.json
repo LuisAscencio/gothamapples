@@ -5,22 +5,57 @@
 [
     {
         "id": "1",
+        "title": "Queens",
+        "link": "/form",
+        "imgSrc": "assets/img/bg/subway.png"
+    },
+    {
+        "id": "2",
+        "title": "Manhattan",
+        "link": "/form",
+        "imgSrc": "assets/img/bg/manhattan.png"
+    },
+
+    {
+        "id": "3",
+        "title": "Brooklyn",
+        "link": "/form",
+        "imgSrc": "assets/img/bg/brooklyn.png"
+    },
+
+    {
+        "id": "4",
         "title": "Long Island",
         "link": "/form",
         "imgSrc": "assets/img/bg/li.png"
     },
     {
-        "id": "2",
+        "id": "5",
         "title": "Bronx",
         "link": "/form",
         "imgSrc": "assets/img/bg/yankee.png"
     },
 
     {
-        "id": "3",
-        "title": "All New Jersey",
+        "id": "6",
+        "title": "Staten Island",
+        "link": "/form",
+        "imgSrc": "assets/img/bg/staten.png"
+    },
+
+    {
+        "id": "7",
+        "title": "New Jersey",
         "link": "/form",
         "imgSrc": "assets/img/bg/jersey.png"
+    },
+
+    {
+        "id": "8",
+        "title": "Westchester",
+        "link": "/form",
+        "imgSrc": "assets/img/bg/west.png"
     }
+
    
 ]

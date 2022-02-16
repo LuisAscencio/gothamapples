@@ -43,7 +43,7 @@ class ServicesHome extends Component {
                 <div className="adv-slider-services">
                     <div className="adv-swiper-container">
                         <div className="adv-swiper-wrapper services-items clearfix">
-                            <div title="Brooklyn" className="adv-swiper-slide services-item" onClick={this.props.func}>
+                            {/* <div title="Brooklyn" className="adv-swiper-slide services-item" onClick={this.props.func}>
                                 <div className="services-item-content">
                                     <h3 className="services-item-t-head">Brooklyn</h3>
 
@@ -57,7 +57,7 @@ class ServicesHome extends Component {
                                 </div>
 
                                 <div className="img-bg-color"></div>
-                            </div>
+                            </div> */}
 
                             <div title="Queens" className="adv-swiper-slide services-item" onClick={this.props.func}>
                                 <div className="services-item-content">
@@ -76,7 +76,7 @@ class ServicesHome extends Component {
                                 <div className="img-bg-color"></div>
                             </div>
 
-                            <div title="Staten Island" className="adv-swiper-slide services-item" onClick={this.props.func}>
+                            {/* <div title="Staten Island" className="adv-swiper-slide services-item" onClick={this.props.func}>
                                 <div className="services-item-content">
                                     <h3 className="services-item-t-head">Staten Island </h3>
 
@@ -90,7 +90,7 @@ class ServicesHome extends Component {
                                 </div>
 
                                 <div className="img-bg-color"></div>
-                            </div>
+                            </div> */}
 
                             <div title="Manhattan" className="adv-swiper-slide services-item" onClick={this.props.func}>
                                 <div className="services-item-content">
