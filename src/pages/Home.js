@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import Loading from '../blocks/loading/Loading';
 import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
@@ -24,28 +24,29 @@ import BackToServices from '../components/button/BackToServices';
   
 
 const Home = () => {
+    const inputElement = useRef();
 
-
+   
 useEffect(() => {
 
     if (window.location.pathname==="/form") {
-        window.scrollTo({ behavior: "smooth",
-        top: 2000
-      })
+        inputElement.current.scrollIntoView({behavior: "smooth", block: "end"})
     }
     
 
 
 
 
-    // if (window.location.pathname==="/services") {
-    //     window.scrollTo({ behavior: "smooth",
-    //     top: 800
-    //   })
-    // }
     
     
-  }, []);
+    
+  }, [window.location.pathname]);
+
+
+
+  const goToContact = (id) => {
+    inputElement.current.scrollIntoView({behavior: "smooth", block: "end"}) 
+  }
 
 
 
@@ -77,23 +78,23 @@ useEffect(() => {
                     <div className="clearfix">
                         <PageTitleHome />
 
-                        <div id="page-content" className="spacer p-top-xl">
-                        <ContactsUs />
+                        
+                        
                                 
-                           
-                            </div>
+                        <ServicesHome func={goToContact}/>
+                          
                         
                                 {/* <PageTitleServices /> */}
 
-                            <div id="page-content" className="spacer p-top-xl">
-                                <ServicesHome/>
-                                
+                            <div id="page-content" className="spacer p-top-l">
+                               
+                                <ContactsUs />
                            
                             </div>
                             <div id="page-content" className="spacer p-top-xl">
                                
                                 
-                                <ServicesContent />
+                                <ServicesContent func={goToContact}/>
                             </div>
 
                           
@@ -107,7 +108,7 @@ useEffect(() => {
                             <div className="clearfix">
                           
 
-                              <div className="spacer p-top-xl">
+                              <div className="spacer p-top-xl" ref={inputElement}>
                                     <div className="title">
                                         <h2 className="text-uppercase">Let’s get Connected</h2>
                                     </div>

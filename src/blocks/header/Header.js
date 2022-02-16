@@ -4,7 +4,7 @@ import SearchModal from '../../components/modal/SearchModal';
 import MenuModal from '../../components/modal/MenuModal';
 import Actions from "../actions/Actions";
 
-const Header = ( { logoColor } ) => {
+const Header = (props, { logoColor } ) => {
     return (
         <header id="header" className="site-header">
             <div className="wrapper">
@@ -29,7 +29,7 @@ const Header = ( { logoColor } ) => {
                         <div className="d-flex align-items-center">
                             {/* <SearchModal /> */}
 
-                            <MenuModal />
+                            <MenuModal func={props.func} />
                         </div>
 {/* 
                         <Actions /> */}

@@ -1,7 +1,7 @@
 import React from 'react';
 import ServicesContentItemsData from '../../data/services/servicesContentItems';
 
-const ServicesContent = () => {
+const ServicesContent = (props) => {
     return (
         <div className="wrapper">
             <div className="content">
@@ -9,7 +9,7 @@ const ServicesContent = () => {
                     { ServicesContentItemsData && ServicesContentItemsData.map( ( item, key ) => {
                         return (
                             <div key={ key } className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <a title={ item.title } className="services-item" href={ process.env.PUBLIC_URL + item.link }>
+                                <div title={ item.title } className="services-item" onClick={props.func}>
                                     <div className="services-item-content">
                                         <h3 className="services-item-t-head">{ item.title }</h3>
 
@@ -23,7 +23,7 @@ const ServicesContent = () => {
                                     </div>
 
                                     <div className="img-bg-color"></div>
-                                </a>
+                                </div>
                             </div>
                         );
                     } ) }

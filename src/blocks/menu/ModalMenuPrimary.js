@@ -1,18 +1,18 @@
 import React from 'react';
 
-const ModalMenuPrimary = () => {
+const ModalMenuPrimary = (props) => {
     return (
         <nav className="menu-primary">
             <ul className="nav">
-                <li className={ "nav-item" + (window.location.pathname === '/' ? " current-nav-item" : "") }>
-                    <a title="Home" href={ process.env.PUBLIC_URL + "/" }>Home</a>
-                </li>
+            
+               
                 
                 <li className={ "nav-item" + (window.location.pathname === '/about' ? " current-nav-item" : "") }>
-                    <a title="Info" href={ process.env.PUBLIC_URL + "/info" }>Info</a>
+                <a title="Insta" href={ "https://www.instagram.com/gotham_apples/" }>Visit Instagram</a>
                 </li>
+         
 
-                <li className={ "nav-item" + (window.location.pathname === '/flower' ? " current-nav-item" : "") }>
+                {/* <li className={ "nav-item" + (window.location.pathname === '/flower' ? " current-nav-item" : "") }>
                     <a title="flower" href={ process.env.PUBLIC_URL + "/flower" }>Flower</a>
                 </li>
 
@@ -33,7 +33,7 @@ const ModalMenuPrimary = () => {
                 </li>
                 <li className={ "nav-item" + (window.location.pathname === '/prerolled' ? " current-nav-item" : "") }>
                     <a title="prerolled" href={ process.env.PUBLIC_URL + "/prerolled" }>Pre Rolled</a>
-                </li>
+                </li>  */}
             </ul>
         </nav>
     );

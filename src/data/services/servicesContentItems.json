@@ -7,13 +7,20 @@
         "id": "1",
         "title": "Long Island",
         "link": "/form",
-        "imgSrc": "assets/img/bg/longisland.png"
+        "imgSrc": "assets/img/bg/li.png"
     },
     {
         "id": "2",
         "title": "Bronx",
         "link": "/form",
         "imgSrc": "assets/img/bg/yankee.png"
+    },
+
+    {
+        "id": "3",
+        "title": "All New Jersey",
+        "link": "/form",
+        "imgSrc": "assets/img/bg/jersey.png"
     }
    
 ]

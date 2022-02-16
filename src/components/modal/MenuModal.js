@@ -12,8 +12,8 @@ import Actions from '../../blocks/actions/Actions';
 
 
 class MenuModal extends Component {
-    constructor( context ) {
-        super( context );
+    constructor(  props, context ) {
+        super( props, context  );
 
         this.state = {
             showModal: false
@@ -104,12 +104,12 @@ class MenuModal extends Component {
 
                             <div className="modal-body modal-body-centered menu-primary-show-1-nav-item menu-secondary-show-1-nav-item">
                                 <div className="animated zoomin w-100">
-                                    <ModalMenuPrimary />
+                                    <ModalMenuPrimary  func={this.props.func}/>
 
                                     {/* <ModalMenuSecondary /> */}
 
                                     <div className="modal-text">
-                                        <p>© 2022 Gotham Apples. Created by Luis Ascencio</p>
+                                        <p>© 2022 Gotham Apples.</p>
                                     </div>
                                 </div>
                             </div>
