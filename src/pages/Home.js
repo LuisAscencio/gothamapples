@@ -117,7 +117,7 @@ useEffect(() => {
                                         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                             {/* <ContactsInside /> */}
                                             <div className="header-logo" style={{maxHeight: "350px"}}>
-                                                <a className="logo logo-secondary transform-scale-h" title="Logo" href={ "https://www.instagram.com/gotham_apples/" }>
+                                                <a className="logo logo-secondary transform-scale-h" title="Logo" href={ "https://www.instagram.com/gothamapples/" }>
                                                     <img src={ "assets/img/bg/contactbannerbutton.png" } alt="Logo" style={{maxHeight: "600px",}}/>
                                                 </a>
                                                

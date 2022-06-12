@@ -8,7 +8,7 @@ const ModalMenuPrimary = (props) => {
                
                 
                 <li className={ "nav-item" + (window.location.pathname === '/about' ? " current-nav-item" : "") }>
-                <a title="Insta" href={ "https://www.instagram.com/gotham_apples/" }>Visit Instagram</a>
+                <a title="Insta" href={ "https://www.instagram.com/gothamapples/" }>Visit Instagram</a>
                 </li>
          
 

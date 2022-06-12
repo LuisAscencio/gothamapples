@@ -13,7 +13,7 @@ const Header = (props, { logoColor } ) => {
                         <div className="links">
                             <div className="links-items">
                                 <div className="links-item">
-                                    <a href={ "https://www.instagram.com/gotham_apples"} className="btn btn-link border-0 p-0 min-w-auto">
+                                    <a href={ "https://www.instagram.com/gothamapples"} className="btn btn-link border-0 p-0 min-w-auto">
                                     <i class="fab fa-instagram fa-3x" style={{color:"#FFFFF"}}></i>
                                     </a>
                                 </div>

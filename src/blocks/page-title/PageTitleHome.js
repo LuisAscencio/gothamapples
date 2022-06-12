@@ -9,9 +9,9 @@ const PageTitleHome = () => {
             <div className="wrapper text-center d-flex">
                 <div className="align-self-center w-100">
                     <div className="title">
-                        <h1 className="large text-uppercase">Gotham Apples</h1>
+                        {/* <h1 className="large text-uppercase">Gotham Apples</h1> */}
                         {window.innerWidth<911 ? 
-                        <a href={ "https://www.instagram.com/gotham_apples"} className="btn btn-link border-0 p-0 min-w-auto">
+                        <a href={ "https://www.instagram.com/gothamapples"} className="btn btn-link border-0 p-0 min-w-auto">
                         <i class="fab fa-instagram fa-5x" ></i>
                         </a>
             

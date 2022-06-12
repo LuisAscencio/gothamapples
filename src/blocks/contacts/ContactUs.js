@@ -7,7 +7,7 @@ const ContactsUs = () => {
                 <div className="wrapper text-center">
                    
 
-                    <a href={ "https://www.instagram.com/gotham_apples/" } className="btn btn-outline-tertiary text-uppercase">Visit Us on Instagram</a>
+                    <a href={ "https://www.instagram.com/gothamapples/" } className="btn btn-outline-tertiary text-uppercase">Visit Us on Instagram</a>
                 </div>
             </div>
         </section>
